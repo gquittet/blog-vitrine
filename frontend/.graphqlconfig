@@ -1,0 +1,15 @@
+{
+  "name": "Frontend graphql endpoint",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Frontend": {
+        "url": "http://localhost:8000/___graphql",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}
