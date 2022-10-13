@@ -41,6 +41,10 @@ function SEO({ description, lang, meta }) {
           content: metaDescription,
         },
         {
+          name: `cf-2fa-verify`,
+          content: `j0Th83J9B3122XUnOKQd6e2dbqHbMj`,
+        },
+        {
           property: `og:title`,
           content: defaultTitle,
         },
